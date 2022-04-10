@@ -5,7 +5,7 @@
     } from 'svelte-navigator';
     import {
         user
-    } from "$/stores";
+    } from "../../stores";
 
     const navigate = useNavigate();
     const location = useLocation();
